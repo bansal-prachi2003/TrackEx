@@ -9,7 +9,7 @@ function Cards({income,expense,currentBalance,showExpenseModal,showIncomeModal})
         <Card bordered={true} className="my-card">
         <h2>Current Balance</h2>
         <p>₹{currentBalance}</p>
-        <Button text="Reset Balance" blue={true}/>
+        // <Button text="Reset Balance" blue={true}/>
         </Card>
 
         <Card bordered={true} className="my-card">
